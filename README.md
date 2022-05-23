@@ -1,5 +1,38 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
+## About The Bus Booking MVP
+We have use the Laravel 9 and Breeze for authentication purpose. Please follow the instructions to run the project
+
+#Database connection .
+-  DB_CONNECTION=mysql .
+-  DB_HOST=127.0.0.1 .
+-  DB_PORT=3306 .
+-  DB_DATABASE=busbooking .
+-  DB_USERNAME=root .
+-  DB_PASSWORD= .
+
+#Run the following commands in the project folder.
+-   php artisan migrate:fresh --seed
+-   npm run dev
+-   php artisan serve
+
+#Available functionalities
+- login (email : rishadhy@mail.com  pw: password)
+- registration
+- create reservation
+- print ticket
+- view all bookings of current user
+
+#Used the factory class to create the datas in the following tables. Therefore some datas are not relevent to srilanks (eg: bus number and cities)
+- users 
+- busses
+- bus routes
+- stations
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+
+</p>
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
