@@ -23,11 +23,14 @@ We have use the Laravel 9 and Breeze for authentication purpose. Please follow t
 - print ticket
 - view all bookings of current user
 
-#Used the factory class to create the datas in the following tables. Therefore some datas are not relevent to srilanks (eg: bus number and cities)
+#Used the factory class to create the datas in the following tables. Therefore some datas are not relevent to srilanka (eg: bus number and cities)
 - users 
 - busses
 - bus routes
 - stations
+
+#ER diagram of the project 
+![image](https://user-images.githubusercontent.com/18311955/169823628-2e5bee41-ad6b-43de-830c-96a6586e0c07.png)
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
